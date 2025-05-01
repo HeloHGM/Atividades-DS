@@ -1,0 +1,59 @@
+footer {
+            background-color: #1E90FF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+             color: white;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px black;
+
+        }
+
+
+body {
+    background-image: url("../imagens/fundo.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;      /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;/* Não repete a imagem */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* MANTÉM a imagem fixa mesmo ao rolar */
+  }   
+
+          p {
+            text-align: justify;
+            text-indent: 50px;
+            line-height: 1.8;
+            font-size: 18px;
+            margin-bottom: 30px;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+        }
+
+    
+    .central {
+
+            padding: 70px;
+         }
+
+  .fig1 img {
+        display: block;
+        border: 8px solid #1E90FF;
+        width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
+        transition: 1.0s; 
+    }
+        .fig1:hover img {
+        box-shadow: 1px 1px 4px white;
+    }
