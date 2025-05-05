@@ -1,0 +1,171 @@
+
+body {
+    background-image: url("../imagens/fundo.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;      /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;/* Não repete a imagem */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* MANTÉM a imagem fixa mesmo ao rolar */
+  }   
+
+
+		p{
+			text-align: center;
+            color: white;
+
+		}
+
+     .destaque {
+    background-color: #ffffff80;
+    color: white;
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: inline-block;      /* faz a borda se ajustar ao texto */
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;             /* centraliza o bloco */
+}
+
+
+		h1{
+			text-align: center;
+			color: white;
+		}
+
+		h2{
+            color: white;
+			text-align: center;
+		
+		}
+
+
+.menu {
+    background-color: #ffffff80;
+    display: flex;
+    justify-content: center; /* centraliza as marcas */
+    align-items: center;
+    position: relative; /* permite posicionar menu */
+    height: 70px;
+}
+
+.menuzin {
+    position: absolute;
+    left: 20px; /* alinha o menu à esquerda */
+}
+
+.marcas {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+
+    .imagem{
+    	text-align: center;
+    	display: flex;
+      	justify-content: center;
+      	gap: 280px;
+    }
+
+    .imagemA{
+    	text-align: center;
+    	display: flex;
+      	justify-content: center;
+      	gap: 320px;
+    }
+
+    .caixa {
+        width: 800px;               /* largura da borda */
+    margin: 0 auto;             /* centraliza horizontalmente */
+    border: 3px solid white;    /* borda visível */
+    padding: 20px;              /* espaço interno */
+    text-align: center;         /* centraliza o texto dentro */
+    box-sizing: border-box;     /* inclui padding dentro do width */
+}
+
+  
+/*
+     .fig1 {
+    margin-left: auto;             /* Centraliza horizontalmente à esquerda 
+    margin-right: auto;            /* Centraliza horizontalmente à direita 
+    position: relative;            /* Permite posicionar o figcaption de forma absoluta dentro desse container 
+    display: block;                /* Garante que o elemento se comporte como um bloco 
+    width: 500px;                  /* Largura da figura 
+    height: 300px;                 /* Altura da figura 
+}
+
+.fig1 img {
+    display: block;                /* Remove espaços indesejados abaixo da imagem 
+    border: 8px solid red;         /* Borda vermelhass ao redor da imagem 
+    box-shadow: 1px 1px 4px black; /* Sombra preta ao redor da imagem 
+    width: 100%;                   /* A imagem ocupa 100% da largura do contêiner 
+    height: 100%;                  /* A imagem ocupa 100% da altura do contêiner 
+    margin-left: auto;            /* Centraliza horizontalmente à esquerda 
+    margin-right: auto;           /* Centraliza horizontalmente à direita 
+    transition: box-shadow 0.5s;  /* Animação suave da sombra ao passar o mouse 
+    box-sizing: border-box;       /* Inclui padding e border no cálculo da largura/altura 
+}
+
+.fig1:hover img {
+    box-shadow: 1px 1px 4px black; /* Mantém a sombra (poderia mudar aqui se quisesse um efeito diferente no hover) 
+}
+
+.fig1 figcaption {
+    opacity: 0;                       /* Inicialmente invisível 
+    position: absolute;              /* Posiciona sobre a imagem 
+    top: 0;                           /* Começa no topo do contêiner 
+    left: 0;                          /* Começa na esquerda do contêiner 
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo preto semi-transparente 
+    color: white;                    /* Cor do texto em branco 
+    width: 100%;                     /* Largura total do contêiner 
+    height: 100%;                    /* Altura total do contêiner 
+    padding: 10px;                   /* Espaçamento interno de 10px 
+    box-sizing: border-box;         /* Inclui padding no tamanho total 
+    transition: opacity 1s;         /* Transição suave ao alterar opacidade 
+}
+
+.fig1:hover figcaption {
+    opacity: 1;                      /* Torna visível quando passa o mouse 
+    transition: opacity 1s;         /* Garante transição suave ao exibir legenda 
+}
+
+*/
+
+
+    .textComp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%; /* Ajuste a largura conforme necessário */
+    /*background-color: rgba(255, 255, 255, 0.5); /* Fundo branco semi-transparente */
+    border: 2px solid white;
+    box-sizing: border-box;
+    width: 30%; /* Ajuste a largura conforme necessário */
+}
+
+
+
+
+        footer {
+            background-color: #ffffff80;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        .link{
+        	text-align: center;
+        }
+
+        .small{
+        	font-size: 10px;
+        }
+
+        .quer{
+        	font-size: 10px	;
+        }
