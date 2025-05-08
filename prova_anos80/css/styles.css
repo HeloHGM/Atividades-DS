@@ -1,0 +1,118 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('../imagens/fundo1.jpg');
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #696969;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .serie-card {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid #8e44ad;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #8e44ad;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+
+
+        .info-box {
+            background-color: #f2e5f9;
+            border-left: 4px solid #8e44ad;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .curiosity {
+            background-color: #ffefd5;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid #ff9800;
+        }
+        footer {
+            background-color: #8e44ad;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+/*---------------imagens index-----------------------*/
+   .conteudo-serie {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Espaço entre texto e imagem */
+}
+
+.texto-serie {
+  flex: 1;
+}
+
+.imagem-serie img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*-----------------imagens supermaquina meio---------------------*/
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.galeria img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-----------------imagens supermaquina---------------------*/
+
+
+.info-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.info-text {
+  flex: 1;
+}
+
+.info-image img {
+    max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 40px;
+}
